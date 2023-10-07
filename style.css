@@ -3,6 +3,11 @@
     src: url("assets/fonts/plastiform-plastiform-svg-400.otf") format("openType");
 }
 
+@font-face {
+    font-family: "TTNorms Medium";
+    src: url("assets/fonts/TTNorms-Medium.otf") format("openType");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@
 }
 
 body {
-    font-family: "plastiform-plastiform-svg-400.otf";
+    font-family: "TTNorms Medium";
 }
 
 .header {
@@ -40,7 +45,8 @@ body {
 
 .menu-title {
     color: #F5F5F5;
-    font-weight: 400;
+    font-weight: 100;
+    font-size: 16px;
     align-items: center;
     justify-content: center;
     width: 150px;
@@ -55,23 +61,77 @@ body {
 
 .menu {
     width: 100%;
-    height: 250px;
+    height: 390px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
 
 }
 
 .menu-link {
     text-decoration: none;
+    display: flex;
+    gap: 15px;
     color: #F5F5F5;
-    font-weight: 400;
+    font-weight: 100;
+}
+
+.menu-link__1 {
+    text-decoration: none;
+    display: flex;
+    gap: 14px;
+    color: #F5F5F5;
+    font-weight: 100;
+}
+
+.menu-link__2 {
+    text-decoration: none;
+    display: flex;
+    gap: 18px;
+    color: #F5F5F5;
+    font-weight: 100;
+}
+
+.menu-link__3 {
+    text-decoration: none;
+    display: flex;
+    margin-left: 2px;
+    gap: 18px;
+    color: #F5F5F5;
+    font-weight: 100;
+}
+
+.menu-link__4 {
+    text-decoration: none;
+    display: flex;
+    margin-left: 3px;
+    gap: 21px;
+    color: #F5F5F5;
+    font-weight: 100;
+}
+
+.menu-link__5 {
+    text-decoration: none;
+    display: flex;
+    margin-left: 2px;
+    gap: 18px;
+    color: #F5F5F5;
+    font-weight: 100;
+}
+
+.menu-link__6 {
+    text-decoration: none;
+    display: flex;
+    margin-left: 3px;
+    gap: 18px;
+    color: #F5F5F5;
+    font-weight: 100;
 }
 
 .header-title {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
 }
@@ -79,11 +139,12 @@ body {
 .header_logo {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
 }
 
 .header-logo__wrapper {
+    gap: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -104,17 +165,19 @@ body {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
 }
 
 .logo-box {
-    background-color: #2D2D2D;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0b0652;
+    border-radius: 100px;
 }
 
 .line {
     width: 180px;
-    display: flex;
-    justify-content: center;
+    border: 1px solid #F5F5F5;
 }

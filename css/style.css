@@ -1,11 +1,11 @@
 @font-face {
     font-family: "plastiform-plastiform-svg-400.otf";
-    src: url("assets/fonts/plastiform-plastiform-svg-400.otf") format("openType");
+    src: url("../assets/fonts/plastiform-plastiform-svg-400.otf") format("openType");
 }
 
 @font-face {
     font-family: "TTNorms Medium";
-    src: url("assets/fonts/TTNorms-Medium.otf") format("openType");
+    src: url("../assets/fonts/TTNorms-Medium.otf") format("openType");
 }
 
 * {
@@ -24,7 +24,7 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
-    background-image: url("assets/images/Background.png");
+    background-image: url("../assets/images/Background.png");
     background-size: cover;
     background-repeat: no-repeat;
 }

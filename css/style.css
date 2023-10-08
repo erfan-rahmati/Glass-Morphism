@@ -56,6 +56,10 @@ body {
     border-radius: 50px
 }
 
+.svg-icon__box:hover {
+    border: 1px solid rgba(119, 118, 118, 1);
+}
+
 .container {
     max-width: 80rem;
     margin-right: auto;

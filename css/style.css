@@ -23,6 +23,7 @@ body {
     height: 672px;
     padding: 0;
     margin: 0;
+    overflow: hidden;
     display: flex;
     background-image: url("../assets/images/Background.png");
     background-size: cover;

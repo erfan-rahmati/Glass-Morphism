@@ -23,16 +23,25 @@ body {
     height: 672px;
     padding: 0;
     margin: 0;
+    display: flex;
     background-image: url("assets/images/Background.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .header-menu {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(245, 245, 245, 0.3);
+    width: 250px;
+    height: 630px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .container {
@@ -72,6 +81,7 @@ body {
 .menu-link {
     text-decoration: none;
     display: flex;
+    margin-left: 2px;
     gap: 15px;
     color: #F5F5F5;
     font-weight: 100;
@@ -80,6 +90,7 @@ body {
 .menu-link__1 {
     text-decoration: none;
     display: flex;
+    margin-left: 2px;
     gap: 14px;
     color: #F5F5F5;
     font-weight: 100;
@@ -88,6 +99,7 @@ body {
 .menu-link__2 {
     text-decoration: none;
     display: flex;
+    margin-left: 2px;
     gap: 18px;
     color: #F5F5F5;
     font-weight: 100;
@@ -96,7 +108,7 @@ body {
 .menu-link__3 {
     text-decoration: none;
     display: flex;
-    margin-left: 2px;
+    margin-left: 4px;
     gap: 18px;
     color: #F5F5F5;
     font-weight: 100;
@@ -105,7 +117,7 @@ body {
 .menu-link__4 {
     text-decoration: none;
     display: flex;
-    margin-left: 3px;
+    margin-left: 5px;
     gap: 21px;
     color: #F5F5F5;
     font-weight: 100;
@@ -114,7 +126,7 @@ body {
 .menu-link__5 {
     text-decoration: none;
     display: flex;
-    margin-left: 2px;
+    margin-left: 4px;
     gap: 18px;
     color: #F5F5F5;
     font-weight: 100;
@@ -123,7 +135,7 @@ body {
 .menu-link__6 {
     text-decoration: none;
     display: flex;
-    margin-left: 3px;
+    margin-left: 5px;
     gap: 18px;
     color: #F5F5F5;
     font-weight: 100;
@@ -180,4 +192,77 @@ body {
 .line {
     width: 180px;
     border: 1px solid #F5F5F5;
+}
+
+/* Start Hover To Project */
+
+.menu-link__1:hover {
+    display: flex;
+    margin-left: 1.5px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    background: linear-gradient(#0b0652, #0B1E42C3);
+}
+
+.menu-link__2:hover {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    background: linear-gradient(#0b0652, #0B1E42C3);
+}
+
+.menu-link:hover {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    background: linear-gradient(#0b0652, #0B1E42C3);
+}
+
+.menu-link__3:hover {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    background: linear-gradient(#0b0652, #0B1E42C3);
+}
+
+.menu-link__4:hover {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    background: linear-gradient(#0b0652, #0B1E42C3);
+}
+
+.menu-link__5:hover {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    background: linear-gradient(#0b0652, #0B1E42C3);
+}
+
+.menu-link__6:hover {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    background: linear-gradient(#0b0652, #0B1E42C3);
 }
